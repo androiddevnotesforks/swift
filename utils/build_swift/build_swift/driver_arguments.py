@@ -1191,7 +1191,6 @@ SWIFT_SOURCE_ROOT: a directory containing the source for LLVM, Clang, Swift.
 'build-script' expects the sources to be laid out in the following way:
 
    $SWIFT_SOURCE_ROOT/llvm-project
-                     /clang
                      /swift
                      /llbuild                    (optional)
                      /swiftpm                    (optional, requires llbuild)

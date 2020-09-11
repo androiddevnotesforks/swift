@@ -225,11 +225,7 @@ Phew, that's a lot to digest! Now let's proceed to the actual build itself!
 
 ### The actual build
 
-1. Make sure you have Sccache running.
-   ```sh
-   sccache --start-server
-   ```
-   (Optional) Sccache defaults to a cache size of 10GB, which is relatively
+1. (Optional) Sccache defaults to a cache size of 10GB, which is relatively
    small compared to build artifacts. You can bump it up, say by setting
    `export SCCACHE_CACHE_SIZE="50G"` in your dotfile(s). For more details,
    see the [Sccache README][Sccache].
